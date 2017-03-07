@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FD147991E6D6C6300F7D0FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD147981E6D6C6300F7D0FB /* main.m */; };
+		5FD1479C1E6D6C6300F7D0FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1479B1E6D6C6300F7D0FB /* AppDelegate.m */; };
+		5FD1479F1E6D6C6300F7D0FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1479E1E6D6C6300F7D0FB /* ViewController.m */; };
+		5FD147A21E6D6C6300F7D0FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD147A01E6D6C6300F7D0FB /* Main.storyboard */; };
+		5FD147A41E6D6C6300F7D0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD147A31E6D6C6300F7D0FB /* Assets.xcassets */; };
+		5FD147A71E6D6C6300F7D0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD147A51E6D6C6300F7D0FB /* LaunchScreen.storyboard */; };
+		5FD147B21E6D6C6300F7D0FB /* AECountdownButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD147B11E6D6C6300F7D0FB /* AECountdownButtonTests.m */; };
+		5FD147BD1E6D6C6300F7D0FB /* AECountdownButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD147BC1E6D6C6300F7D0FB /* AECountdownButtonUITests.m */; };
+		5FD147CC1E6D6C7300F7D0FB /* AECountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD147CB1E6D6C7300F7D0FB /* AECountdownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FD147AE1E6D6C6300F7D0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD1478C1E6D6C6300F7D0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD147931E6D6C6300F7D0FB;
+			remoteInfo = AECountdownButton;
+		};
+		5FD147B91E6D6C6300F7D0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FD1478C1E6D6C6300F7D0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FD147931E6D6C6300F7D0FB;
+			remoteInfo = AECountdownButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FD147941E6D6C6300F7D0FB /* AECountdownButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AECountdownButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD147981E6D6C6300F7D0FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FD1479A1E6D6C6300F7D0FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FD1479B1E6D6C6300F7D0FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FD1479D1E6D6C6300F7D0FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FD1479E1E6D6C6300F7D0FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FD147A11E6D6C6300F7D0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FD147A31E6D6C6300F7D0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FD147A61E6D6C6300F7D0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FD147A81E6D6C6300F7D0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD147AD1E6D6C6300F7D0FB /* AECountdownButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AECountdownButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD147B11E6D6C6300F7D0FB /* AECountdownButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AECountdownButtonTests.m; sourceTree = "<group>"; };
+		5FD147B31E6D6C6300F7D0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD147B81E6D6C6300F7D0FB /* AECountdownButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AECountdownButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD147BC1E6D6C6300F7D0FB /* AECountdownButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AECountdownButtonUITests.m; sourceTree = "<group>"; };
+		5FD147BE1E6D6C6300F7D0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FD147CA1E6D6C7300F7D0FB /* AECountdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AECountdownButton.h; sourceTree = "<group>"; };
+		5FD147CB1E6D6C7300F7D0FB /* AECountdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AECountdownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FD147911E6D6C6300F7D0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD147AA1E6D6C6300F7D0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD147B51E6D6C6300F7D0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FD1478B1E6D6C6300F7D0FB = {
+			isa = PBXGroup;
+			children = (
+				5FD147961E6D6C6300F7D0FB /* AECountdownButton */,
+				5FD147B01E6D6C6300F7D0FB /* AECountdownButtonTests */,
+				5FD147BB1E6D6C6300F7D0FB /* AECountdownButtonUITests */,
+				5FD147951E6D6C6300F7D0FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FD147951E6D6C6300F7D0FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD147941E6D6C6300F7D0FB /* AECountdownButton.app */,
+				5FD147AD1E6D6C6300F7D0FB /* AECountdownButtonTests.xctest */,
+				5FD147B81E6D6C6300F7D0FB /* AECountdownButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FD147961E6D6C6300F7D0FB /* AECountdownButton */ = {
+			isa = PBXGroup;
+			children = (
+				5FD1479A1E6D6C6300F7D0FB /* AppDelegate.h */,
+				5FD1479B1E6D6C6300F7D0FB /* AppDelegate.m */,
+				5FD1479D1E6D6C6300F7D0FB /* ViewController.h */,
+				5FD1479E1E6D6C6300F7D0FB /* ViewController.m */,
+				5FD147CA1E6D6C7300F7D0FB /* AECountdownButton.h */,
+				5FD147CB1E6D6C7300F7D0FB /* AECountdownButton.m */,
+				5FD147A01E6D6C6300F7D0FB /* Main.storyboard */,
+				5FD147A31E6D6C6300F7D0FB /* Assets.xcassets */,
+				5FD147A51E6D6C6300F7D0FB /* LaunchScreen.storyboard */,
+				5FD147A81E6D6C6300F7D0FB /* Info.plist */,
+				5FD147971E6D6C6300F7D0FB /* Supporting Files */,
+			);
+			path = AECountdownButton;
+			sourceTree = "<group>";
+		};
+		5FD147971E6D6C6300F7D0FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FD147981E6D6C6300F7D0FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FD147B01E6D6C6300F7D0FB /* AECountdownButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD147B11E6D6C6300F7D0FB /* AECountdownButtonTests.m */,
+				5FD147B31E6D6C6300F7D0FB /* Info.plist */,
+			);
+			path = AECountdownButtonTests;
+			sourceTree = "<group>";
+		};
+		5FD147BB1E6D6C6300F7D0FB /* AECountdownButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FD147BC1E6D6C6300F7D0FB /* AECountdownButtonUITests.m */,
+				5FD147BE1E6D6C6300F7D0FB /* Info.plist */,
+			);
+			path = AECountdownButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD147931E6D6C6300F7D0FB /* AECountdownButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD147C11E6D6C6300F7D0FB /* Build configuration list for PBXNativeTarget "AECountdownButton" */;
+			buildPhases = (
+				5FD147901E6D6C6300F7D0FB /* Sources */,
+				5FD147911E6D6C6300F7D0FB /* Frameworks */,
+				5FD147921E6D6C6300F7D0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AECountdownButton;
+			productName = AECountdownButton;
+			productReference = 5FD147941E6D6C6300F7D0FB /* AECountdownButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FD147AC1E6D6C6300F7D0FB /* AECountdownButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD147C41E6D6C6300F7D0FB /* Build configuration list for PBXNativeTarget "AECountdownButtonTests" */;
+			buildPhases = (
+				5FD147A91E6D6C6300F7D0FB /* Sources */,
+				5FD147AA1E6D6C6300F7D0FB /* Frameworks */,
+				5FD147AB1E6D6C6300F7D0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD147AF1E6D6C6300F7D0FB /* PBXTargetDependency */,
+			);
+			name = AECountdownButtonTests;
+			productName = AECountdownButtonTests;
+			productReference = 5FD147AD1E6D6C6300F7D0FB /* AECountdownButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FD147B71E6D6C6300F7D0FB /* AECountdownButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD147C71E6D6C6300F7D0FB /* Build configuration list for PBXNativeTarget "AECountdownButtonUITests" */;
+			buildPhases = (
+				5FD147B41E6D6C6300F7D0FB /* Sources */,
+				5FD147B51E6D6C6300F7D0FB /* Frameworks */,
+				5FD147B61E6D6C6300F7D0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FD147BA1E6D6C6300F7D0FB /* PBXTargetDependency */,
+			);
+			name = AECountdownButtonUITests;
+			productName = AECountdownButtonUITests;
+			productReference = 5FD147B81E6D6C6300F7D0FB /* AECountdownButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FD1478C1E6D6C6300F7D0FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AirEDoctor;
+				TargetAttributes = {
+					5FD147931E6D6C6300F7D0FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5FD147AC1E6D6C6300F7D0FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FD147931E6D6C6300F7D0FB;
+					};
+					5FD147B71E6D6C6300F7D0FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5FD147931E6D6C6300F7D0FB;
+					};
+				};
+			};
+			buildConfigurationList = 5FD1478F1E6D6C6300F7D0FB /* Build configuration list for PBXProject "AECountdownButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FD1478B1E6D6C6300F7D0FB;
+			productRefGroup = 5FD147951E6D6C6300F7D0FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD147931E6D6C6300F7D0FB /* AECountdownButton */,
+				5FD147AC1E6D6C6300F7D0FB /* AECountdownButtonTests */,
+				5FD147B71E6D6C6300F7D0FB /* AECountdownButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD147921E6D6C6300F7D0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD147A71E6D6C6300F7D0FB /* LaunchScreen.storyboard in Resources */,
+				5FD147A41E6D6C6300F7D0FB /* Assets.xcassets in Resources */,
+				5FD147A21E6D6C6300F7D0FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD147AB1E6D6C6300F7D0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD147B61E6D6C6300F7D0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD147901E6D6C6300F7D0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD1479F1E6D6C6300F7D0FB /* ViewController.m in Sources */,
+				5FD147CC1E6D6C7300F7D0FB /* AECountdownButton.m in Sources */,
+				5FD1479C1E6D6C6300F7D0FB /* AppDelegate.m in Sources */,
+				5FD147991E6D6C6300F7D0FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD147A91E6D6C6300F7D0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD147B21E6D6C6300F7D0FB /* AECountdownButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FD147B41E6D6C6300F7D0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD147BD1E6D6C6300F7D0FB /* AECountdownButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FD147AF1E6D6C6300F7D0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD147931E6D6C6300F7D0FB /* AECountdownButton */;
+			targetProxy = 5FD147AE1E6D6C6300F7D0FB /* PBXContainerItemProxy */;
+		};
+		5FD147BA1E6D6C6300F7D0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FD147931E6D6C6300F7D0FB /* AECountdownButton */;
+			targetProxy = 5FD147B91E6D6C6300F7D0FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FD147A01E6D6C6300F7D0FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD147A11E6D6C6300F7D0FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FD147A51E6D6C6300F7D0FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FD147A61E6D6C6300F7D0FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FD147BF1E6D6C6300F7D0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FD147C01E6D6C6300F7D0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FD147C21E6D6C6300F7D0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AECountdownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirEDoctor.AECountdownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FD147C31E6D6C6300F7D0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AECountdownButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirEDoctor.AECountdownButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FD147C51E6D6C6300F7D0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AECountdownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirEDoctor.AECountdownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AECountdownButton.app/AECountdownButton";
+			};
+			name = Debug;
+		};
+		5FD147C61E6D6C6300F7D0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AECountdownButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirEDoctor.AECountdownButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AECountdownButton.app/AECountdownButton";
+			};
+			name = Release;
+		};
+		5FD147C81E6D6C6300F7D0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AECountdownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirEDoctor.AECountdownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AECountdownButton;
+			};
+			name = Debug;
+		};
+		5FD147C91E6D6C6300F7D0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AECountdownButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirEDoctor.AECountdownButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AECountdownButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FD1478F1E6D6C6300F7D0FB /* Build configuration list for PBXProject "AECountdownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD147BF1E6D6C6300F7D0FB /* Debug */,
+				5FD147C01E6D6C6300F7D0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD147C11E6D6C6300F7D0FB /* Build configuration list for PBXNativeTarget "AECountdownButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD147C21E6D6C6300F7D0FB /* Debug */,
+				5FD147C31E6D6C6300F7D0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FD147C41E6D6C6300F7D0FB /* Build configuration list for PBXNativeTarget "AECountdownButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD147C51E6D6C6300F7D0FB /* Debug */,
+				5FD147C61E6D6C6300F7D0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FD147C71E6D6C6300F7D0FB /* Build configuration list for PBXNativeTarget "AECountdownButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD147C81E6D6C6300F7D0FB /* Debug */,
+				5FD147C91E6D6C6300F7D0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FD1478C1E6D6C6300F7D0FB /* Project object */;
+}
