@@ -34,7 +34,8 @@
         else {
             if (self.timer == nil) { // 开始倒计时
                 self.enabled = NO;
-                self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(countingDown) userInfo:nil repeats:YES];
+                self.timer = [NSTimer timerWithTimeInterval:1.0 target:self selector:@selector(countingDown) userInfo:nil repeats:YES];
+                [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
                 if ([self.delegate respondsToSelector:@selector(countdownButtonDidBeginCountingDown:)]) {
                     [self.delegate countdownButtonDidBeginCountingDown:self];
                 }
@@ -56,7 +57,5 @@
 {
     self.seconds = self.seconds - 1;
 }
-
-
 
 @end
